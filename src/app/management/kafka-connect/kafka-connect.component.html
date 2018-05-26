@@ -1,0 +1,36 @@
+<div class="header"></div>
+<ul class="nav nav-tabs">
+  <li><a data-toggle="tab" href="#sources">SOURCES</a></li>
+  <li><a data-toggle="tab" href="#sinks">SINKS</a></li>
+  <a class="addBtn btn btn-blue">new</a>
+</ul>
+<div class="tab-content">
+  <div class="col-xs-12">
+    <div id="sources" class="tab-pane fade">
+        <div class="col-xs-12 table-responsive mt20">
+          <table class="table table-hover table-striped">
+          <thead>
+            <tr>
+              <th>Status</th>
+              <th>Active Tasks</th>
+              <th>Name</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td class="action text-center">
+                  <a routerLink="source-add" class="touch-link"><i class="zmdi zmdi-edit zmdi-hc-lg"></i></a>
+                  <a routerLink="del" class="touch-link"><i class="zmdi zmdi-delete zmdi-hc-lg text-danger"></i></a>
+              </td>
+            </tr>
+          </tbody>
+          </table>
+        </div>
+    </div>
+    <div id="sinks" class="tab-pane fade"></div>
+  </div>
+</div>

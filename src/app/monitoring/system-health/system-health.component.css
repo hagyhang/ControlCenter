@@ -1,0 +1,29 @@
+.circle_border {
+    background-color:#171718;
+    border:3px solid rgb(69, 92, 223);    
+    height:130px;
+    margin: auto;
+    text-align: center;
+    padding-top: 5px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:130px;
+}
+.header{
+    height: 100px;
+}
+td{
+    background: #171718;
+}
+table.info_table td{
+    border-bottom: none;
+    padding: 2px;
+}
+table.info_table th{
+    border-bottom: none;
+    padding: 2px;
+}
+.bor-right{
+    border-right: 1px solid #5d5d60;
+}

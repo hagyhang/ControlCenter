@@ -1,0 +1,24 @@
+<div id="wrapper"> 
+  <div id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+          <li class="sidebar logo"> <a href="#"><img class="logo_size" src="assets/images/control-center-logo.png" alt=""></a> </li>
+          <li class="parent"><a href="#submenu1" data-toggle="collapse"><i class="zmdi zmdi-home zmdi-hc-lg"></i>MONITORING</a></li>
+          <div class="collapse sub-nav" id="submenu1">
+              <li><a routerLink="system-health"><i class="zmdi zmdi-circle"></i>System health</a></li>
+              <li><a routerLink="data-steams"><i class="zmdi zmdi-circle"></i>Data Streams</a></li>
+          </div>
+          <li class="parent"><a href="#submenu2" data-toggle="collapse"><i class="zmdi zmdi-smartphone zmdi-hc-lg"></i>MANAGEMENT</a></li>
+          <div class="collapse sub-nav" id="submenu2">
+              <li><a routerLink="kafka-connect"><i class="zmdi zmdi-circle"></i>Kafka Connect</a></li>
+              <li><a routerLink="clusters"><i class="zmdi zmdi-circle"></i>Clusters</a></li>
+              <li><a routerLink="topics"><i class="zmdi zmdi-circle"></i>Topics</a></li>
+          </div>
+          <li class="parent"><a href="#submenu3" data-toggle="collapse"><i class="zmdi zmdi-settings zmdi-hc-lg"></i>ALERTS</a></li>
+          <div class="collapse sub-nav" id="submenu3">
+              <li><a routerLink="overview"><i class="zmdi zmdi-circle"></i>Overview</a></li>
+              <li><a routerLink="integration"><i class="zmdi zmdi-circle"></i>Integration</a></li>
+          </div>
+      </ul>
+  </div> 
+ <router-outlet></router-outlet>
+</div>

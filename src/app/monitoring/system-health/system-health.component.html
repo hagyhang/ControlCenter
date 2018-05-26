@@ -1,0 +1,96 @@
+<div class="header"></div>
+<ul class="nav nav-tabs">
+  <li><a data-toggle="tab" href="#brokers">BROKERS</a></li>
+  <li><a data-toggle="tab" href="#topics">TOPICS</a></li>
+</ul>
+<div class="tab-content">
+  <div class="col-xs-12">
+    <div id="brokers" class="tab-pane fade in active">
+        <div class="col-xs-12 mt10">
+            <div class="col-xs-2 bor-right">
+              <div class="circle_border mb10">
+                <h1>{{numberOfBroker}}</h1>
+                <p>BROKERS</p>
+              </div>
+              <table class="mb20 info_table">
+                <tbody>
+                  <tr>
+                    <td><i class="zmdi zmdi-check"></i></td>
+                    <td>ZK disconnected</td>
+                    <td>{{disconnectd}}</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Active controllers</td>
+                    <td>{{activeControllers}}</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Unclean elections</td>
+                    <td>{{uncleanElections}}</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Network pool usage</td>
+                    <td>{{networkPool}}</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Request pool usage</td>
+                    <td>{{requestPool}}</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Disk usage</td>
+                    <td>{{disk}}</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div>TOPIC PARTITIONS</div>
+              <table class="info_table">
+                <tbody>
+                    <tr>
+                      <td><i class="zmdi zmdi-check"></i></td>
+                      <td>Online</td>
+                      <td>{{online}}</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Under replicated</td>
+                      <td>{{underReplicated}}</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Offline</td>
+                      <td>{{offline}}</td>
+                    </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+        <div class="col-xs-12 table-responsive mt20">
+          <table class="table table-hover table-striped">
+          <thead>
+            <tr>
+              <th>Broker ID</th>
+                <th>Throughput(bytes in/sec)</th>
+                <th>Throughput(bytes out/sec)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Pizza</td>
+              <td>1</td>
+            </tr>
+          </tbody>
+          </table>
+        </div>
+      </div>
+  </div>
+
+
+  <div id="topics" class="tab-pane fade">
+    
+  </div>
+</div>
